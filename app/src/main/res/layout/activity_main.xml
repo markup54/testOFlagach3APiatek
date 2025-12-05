@@ -33,6 +33,7 @@
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
             android:layout_margin="8dp"
+            android:onClick="ok"
              />
 
         <Button
@@ -66,7 +67,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#9C1A1A"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:onClick="ok"/>
 
         <Button
             android:id="@+id/button5"
